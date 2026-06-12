@@ -30,5 +30,8 @@
         <index referenceId="SOFTCOMMERCE_PROFILE_HISTORY_TYPE_ID" indexType="btree">
             <column name="type_id"/>
         </index>
+        <index referenceId="SOFTCOMMERCE_PROFILE_HISTORY_CREATED_AT" indexType="btree">
+            <column name="created_at"/>
+        </index>
     </table>
 </schema>
